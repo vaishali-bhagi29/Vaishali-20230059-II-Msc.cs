@@ -1,0 +1,16 @@
+ABOUT PROJECT:
+
+TOURIST PORTAL
+
+ This project is done by the website called FIGMA, where we can design the website as we want.
+Hereby I done a project called TOURIST PORTAL here there has a 4 pages called HOME PAGE,ABOUT
+PAGE,CONTACT PAGE and finally LOGIN PAGE.
+
+ The about page has the places details where the place are to be suggest in the page.Next to 
+that there is a contact page where we have the two options called SIGN IN and SIGN UP if we 
+click the Sign up button it will goes to the next page called LOGIN PAGE then there has a 
+option called LOGIN,EMAIL,PASSWORD then it will work like a perfect tourist portal for 
+suggest a good website.
+
+LINK:
+https://www.figma.com/proto/Jy1gLkCwPPA4RrCgfqzOdB/Untitled?node-id=1-2&node-type=CANVAS&t=18Vtxd0J8M8RvVjE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2

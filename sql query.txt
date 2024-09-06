@@ -1,0 +1,60 @@
+C:\Users\Admin\Downloads\sqlite-tools-win-x64-3460100>sqlite3 empo.db
+SQLite version 3.46.1 2024-08-13 09:16:08 (UTF-16 console I/O)
+Enter ".help" for usage hints.
+
+CREATE QUERY:
+
+create table empo(id integer,name varchar,address varchar(15),salary integer,age integer);
+
+INSERT QUERY:
+
+sqlite> insert into empo(id,name,address,salary,age)values(101,'vaish','trichy',25000,21);
+sqlite> insert into empo(id,name,address,salary,age)values(102,'sasi','lalgudi',26000,22);
+sqlite> insert into empo(id,name,address,salary,age)values(103,'janani','madurai',27000,23);
+sqlite> insert into empo(id,name,address,salary,age)values(104,'sneha','cbe',22000,24);
+
+SELECT QUERY:
+
+sqlite> select*from empo;
+
+101|vaish|trichy|25000|21
+102|sasi|lalgudi|26000|22
+103|janani|madurai|27000|23
+104|sneha|cbe|22000|24
+
+DELETE QUERY:
+
+sqlite> delete from empo where salary=26000;
+
+sqlite> select*from empo;
+
+101|vaish|trichy|25000|21
+103|janani|madurai|27000|23
+104|sneha|cbe|22000|24
+
+UPDATE QUERY:
+
+sqlite> update empo set name='sne' where id=104;
+
+sqlite> select*from empo;
+
+101|vaish|trichy|25000|21
+103|janani|madurai|27000|23
+104|sne|cbe|22000|24
+
+ALTER QUERY:
+
+sqlite> alter table empo add email varchar(255);
+
+sqlite> select*from empo;
+
+101|vaish|trichy|25000|21|
+103|janani|madurai|27000|23|
+104|sne|cbe|22000|24|
+
+DROP QUERY:
+
+sqlite> drop table empo;
+
+sqlite> select*from empo;
+Parse error: no such table: empo
